@@ -1,9 +1,9 @@
 {
-    "name": "PROFESSOR-BOT",
+    "name": "SuperStarBot",
     "description": "The Telegram Autofilter Bot",
     "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
-    "keywords": ["Telegram", "auto-filter", "MrMKN"],
-    "repository": "https://github.com/MrMKN/PROFESSOR-BOT",
+    "keywords": ["Telegram", "auto-filter", "SSA_TG"],
+    "repository": "https://github.com/AJBotsss/SuperStarBot",
     "env": {
         "WEBHOOK": {
             "description": "True/False if your server is web support required? the value is True else False",
@@ -32,11 +32,11 @@
         },
         "SHORT_API": {
             "description": "Api Key Of shortner You Use.",
-            "required": false
+            "required":falae
         },
         "SHORT_URL": {
             "description": "Url of shortner site you use.",
-            "required": false
+            "required":false
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
@@ -76,7 +76,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "MKN_BOTZ_DISCUSSION_GROUP",
+            "value": "https://t.me/+UIq6GethUsRiNGE1",
             "required": false
         },
         "IMDB": {
@@ -164,8 +164,3 @@
             {"url": "heroku/python"}
         ]      
 }
-
-
-
-
-
