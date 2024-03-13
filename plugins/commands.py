@@ -40,6 +40,9 @@ async def start(client, message):
             ],[      
             InlineKeyboardButton("Hᴇʟᴩ 🕸️", callback_data="help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
+        ],[
+              
+            InlineKeyboardButton("✨ Buy Subsccription ✨", callback_data="Buy Subscription")
         ]]
         m = await message.reply_text("𝑺𝑻𝑨𝑹𝑻𝑰𝑵𝑮 👀...")
         await asyncio.sleep(2)
@@ -76,8 +79,11 @@ async def start(client, message):
             ],[      
             InlineKeyboardButton("Hᴇʟᴩ 🕸️", callback_data="help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
+        ],[
+             
+            InlineKeyboardButton("✨ Buy Subscription ✨", callback_data="Buy Subscription")      
         ]]
-       m = await message.reply_text("𝑺𝑻𝑨𝑹𝑻𝑰𝑵𝑮 👀...")
+    m = await message.reply_text("𝑺𝑻𝑨𝑹𝑻𝑰𝑵𝑮 👀...")
         await asyncio.sleep(2)
         await message.reply_photo(photo=random.choice(PICS), caption=START_MESSAGE.format(user=message.from_user.mention, bot=client.mention), reply_markup=InlineKeyboardMarkup(buttons), parse_mode=enums.ParseMode.HTML)
         return await m.delete()
@@ -387,6 +393,3 @@ async def geg_template(client, message):
     settings = await get_settings(grp_id)
     template = settings['template']
     await sts.edit(f"Cᴜʀʀᴇɴᴛ Tᴇᴍᴘʟᴀᴛᴇ Fᴏʀ {title} Iꜱ\n\n{template}")
-
-
-
