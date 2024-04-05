@@ -32,7 +32,7 @@
         },
         "SHORT_API": {
             "description": "Api Key Of shortner You Use.",
-            "required":falae
+            "required":false
         },
         "SHORT_URL": {
             "description": "Url of shortner site you use.",
